@@ -1,5 +1,14 @@
 # Doujin Folder Formatter
 Formats folders downloaded by Hentoid
+## Requirements
+- Python 3.6
+- Downloads from hentoid following the Author - Title - ID format
+## How to use
+1. Make sure all downloads are located in a single folder
+2. Download or clone the repository
+3. Copy rename.py and script.py in your doujin folder
+4. Run script.py
+5. Enjoy!
 ## Features
 - deletes contentV2.json
 - changes thumb.png/thumb.jpg into folder.jpg
