@@ -1,5 +1,5 @@
 # Doujin Folder Formatter
-Formats folder names from the folders downloaded by Hentoid
+Formats folders downloaded by Hentoid
 ## Features
 - deletes contentV2.json
 - changes thumb.png/thumb.jpg into folder.jpg
