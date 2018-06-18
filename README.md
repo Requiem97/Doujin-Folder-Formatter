@@ -7,8 +7,6 @@ Formats folder names from the folders downloaded by Hentoid
 - Renames folders to "[author] title" format
 ## Rename Sample Cases
 **Before**
-> Ohtomo_Takuji - Kaikin__Namaiki_Hammann___Unforbidden__Hammann_s_raw_orgasm_______________ - [39031-tsumino]
-
 > name1_name2 - t_i_t_l_e____ - [id-source]
 
 > name1_name2 - t_i_t_l_e_-_o_t_h_e_r - [id-source]
@@ -17,7 +15,9 @@ Formats folder names from the folders downloaded by Hentoid
 
 **After**
 > [name1 name2] title
+
 > [name1 name2] title - other
+
 > [name1 name2] title
 
 Script can also automatically handle some posessives
