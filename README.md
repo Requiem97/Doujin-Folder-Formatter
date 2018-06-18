@@ -18,7 +18,7 @@ Formats folder names from the folders downloaded by Hentoid
 
 > [name1 name2] title - other
 
-> [name1 name2] title
+> [name1 name2] title - other
 
 Script can also automatically handle some posessives
 > \_s\_
