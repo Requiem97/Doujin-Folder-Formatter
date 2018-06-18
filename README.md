@@ -3,7 +3,7 @@ Formats folder names from the folders downloaded by Hentoid
 ## Features
 - deletes contentV2.json
 - changes thumb.png/thumb.jpg into folder.jpg
-- Can delete a duplicate thumb image in case of accidental copying
+- Can delete a duplicate thumb image in case of accidental merging
 - Renames folders to "[author] title" format
 ## Rename Sample Cases
 **Before**
