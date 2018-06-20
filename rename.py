@@ -7,14 +7,13 @@ def rename_folders():
     dj = os.listdir(base_dir)
     new_dj = None
     exclude_files = ["__pycache__", "backup.txt", "rename.py",
-                     "script.py", ".git", ".gitattributes", ".gitignore"]
+                     "script.py", ".git", ".gitattributes", ".gitignore", "README.md"]
     error_folders = []
     for file_name in exclude_files:
         try:
             dj.remove(file_name)
         except Exception:
             continue
-    print(dj)
 
     backup = open("backup.txt", "w")
     for d in dj:
@@ -52,6 +51,7 @@ def rename_folders():
             continue
     for string in error_folders:
         print(string)
+    print("success")
 
 
 if __name__ == "__main__":
