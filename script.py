@@ -2,6 +2,8 @@ import os
 import rename
 
 #pylint: disable=unused-variable
+
+
 def remove_json(path):
     for parent, sub, filenames in os.walk(path):
         for fn in filenames:
